@@ -1,0 +1,25 @@
+{
+    "name": "danswater/php-mediainfo",
+    "description": "Wrapper around the `mediainfo` program for obtaining information about media files based in https://github.com/deoxxa/php-mediainfo",
+    "require-dev": {
+        "phpunit/phpunit": "4.2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "danswater",
+            "email": "dansisabot@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "tests/MediainfoTest.php"
+        ],
+        "psr-0": {
+            "danswater\\Mediainfo" : "src/"
+        }
+    },
+    "require": {
+
+    }
+}
